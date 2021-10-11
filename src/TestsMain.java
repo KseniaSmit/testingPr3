@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class TestsMain {
     @Test
     public void getFiles(){
-        assertEquals(21, Main.getFiles().length);
-        assertEquals(new File("src/patterns/Builder"), Main.getFiles()[0]);
+        assertEquals(10, Main.getFiles().length);
+        assertEquals(new File("src/patterns/Adapter"), Main.getFiles()[0]);
     }
 }
