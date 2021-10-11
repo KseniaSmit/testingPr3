@@ -5,7 +5,7 @@ public class Main {
         System.out.println("something");
     }
     public static File[] getFiles(){
-        File folder = new File("/src/patterns");
+        File folder = new File("src/patterns");
         return folder.listFiles();
     }
 }
